@@ -1,20 +1,42 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ♠ Ding Dong ♠  </title>
+    <title> ♠ Ring Ring ♠ </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"/>
 </head>
+
 <body>
-    <h1>App Web dedicada al arriendo de inmuebles</h1>
-    <div>
-        <label for="id_tipo_inmueble">Tipo de Inmueble:</label>
-        <select name="tipo_inmueble" id="id_tipo_inmueble">
-            <option value="casa">Casa</option>
-            <option value="departamento">Departamento</option>
-            <option value="bodega">Bodega</option>
-            <option value="parcela">Parcela</option>
-        </select>
-    </div>
-</body>
+
+    <body>
+        <h1>Tú proximo inmueble app solo un clic</h1>
+        <div class="container mt-5">
+            <div class="row">
+                {% for i in inmuebles %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://content.elmueble.com/medio/2021/01/20/001-dsc9895a-e6f75492_1fae7f4d_2000x1178.jpg"
+                            class="card-img-top" alt="Imagen de inmueble" />
+                        <div class="card-body">
+                            <h5 class="card-title center">{{ i.nombre }}</h5>
+                            <p class="card-text">{{ i.descripcion }}</p>
+                            <p class="card-text">{{ i.comuna.nombre }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+        <!-- Enlace de Bootstrap CDN-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
 </html>

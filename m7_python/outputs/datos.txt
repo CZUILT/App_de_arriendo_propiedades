@@ -1,0 +1,33 @@
+ Casa Acogedora, Amplia casa con jardín
+ Departamento Moderno, Departamento céntrico con vista al mar
+ Casa de Playa, Casa frente al mar
+ Loft Urbano, Loft en el corazón de la ciudad
+ Apartamento Elegante, Apartamento con acabados de lujo
+ Casa Familiar, Amplia casa para toda la familia
+ Penthouse con Vistas, Penthouse con terraza panorámica
+ Estudio Acogedor, Estudio ideal para solteros
+ Casa Rústica, Casa de campo con chimenea
+ Apartamento Minimalista, Apartamento con diseño minimalista
+ Casa Tranquila, Casa en zona residencial
+ Loft de Diseño, Loft con diseño moderno y elegante
+ Casa Contemporánea, Casa con estilo contemporáneo
+ Departamento de Lujo, Departamento en zona exclusiva
+ Casa Moderna, Casa con acabados modernos
+ Departamento Espacioso, Departamento amplio en el centro
+ Casa de Campo, Casa en un entorno rural
+ Loft de Diseño Industrial, Loft con diseño industrial
+ Casa de Verano, Casa para disfrutar el verano
+ Apartamento Chic, Apartamento con estilo chic
+__ listado_inmuebles_comuna_orm __
+
+ __ listado_inmuebles_comuna_sql __
+
+__ listado_inmuebles_region_orm __
+Apartamento Elegante, Apartamento con acabados de lujo - region: De Valparaíso
+Apartamento Minimalista, Apartamento con diseño minimalista - region: De Valparaíso
+Casa Familiar, Amplia casa para toda la familia - region: De Valparaíso
+Estudio Acogedor, Estudio ideal para solteros - region: De Valparaíso
+Penthouse con Vistas, Penthouse con terraza panorámica - region: De Valparaíso
+Casa Rústica, Casa de campo con chimenea - region: De Valparaíso
+
+ __ listado_inmuebles_region_sql __

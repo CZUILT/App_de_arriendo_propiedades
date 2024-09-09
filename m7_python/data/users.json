@@ -1,0 +1,178 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "bruce",
+            "email": "bruce@gmail.com",
+            "first_name": "Bruce",
+            "last_name": "Dickinson",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "edward",
+            "email": "edward@mail.com",
+            "first_name": "Edward",
+            "last_name": "Elrich",
+           "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "teresa",
+            "email": "teresa@hotmail.com",
+            "first_name": "Teresa",
+            "last_name": "del Pilar del Sagrado Corazón",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "lenny",
+            "email": "lenny@gmail.com",
+            "first_name": "Lenny",
+            "last_name": "Kravitz",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "username": "pedro",
+            "email": "pedro@gmail.com",
+            "first_name": "Pedro",
+            "last_name": "Perez",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "username": "manolo",
+            "email": "manolo@example.com",
+            "first_name": "Manolo",
+            "last_name": "Lopendatario",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "username": "toto",
+            "email": "toto@example.com",
+            "first_name": "Toto",
+            "last_name": "Lopendatario",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "username": "juana",
+            "email": "juana@example.com",
+            "first_name": "Juana",
+            "last_name": "Lopendatario",
+            "password": "pbkdf2_sha256$870000$NFD6idVfdPv8PyuBxDzMoU$5OJ2Y8XpeP1eLSfkOFMpMvfzbspb7wjoVWhUTX9jB/U="
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "direccion": "Iron Maiden Blvd",
+            "telefono": null,
+            "rol": "arrendador",
+            "rut": "123456789"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "direccion": "111 Resenvuld",
+            "telefono": null,
+            "rol": "arrendador",
+            "rut": "123456788"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "direccion": "Lo Pintana 567 psje 1",
+            "telefono": null,
+            "rol": "arrendador",
+            "rut": "123456787"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "direccion": "Bellavista 914",
+            "telefono": null,
+            "rol": "arrendador",
+            "rut": "123456786"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "direccion": "Pasaje Volcán Calbuco 123",
+            "telefono": null,
+            "rol": "arrendador",
+            "rut": "123456785"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "direccion": "Calle Arrendatario 1",
+            "telefono": null,
+            "rol": "arrendatario",
+            "rut": "123456784"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "direccion": "Calle Arrendatario 2",
+            "telefono": null,
+            "rol": "arrendatario",
+            "rut": "123456783"
+        }
+    },
+    {
+        "model": "m7_python.userprofile",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "direccion": "Calle Arrendatario 3",
+            "telefono": null,
+            "rol": "arrendatario",
+            "rut": "123456782"
+        }
+    }
+]

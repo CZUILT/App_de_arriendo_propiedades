@@ -1,6 +1,7 @@
 from django.shortcuts import render
+from .services import get_all_inmuebles
 
 # Create your views here.
-
-def index(req):
-    return render(req, 'index.html',{})
+def indexView(request):
+    inmuebles = get_all_inmuebles()
+    return render(request,'index.html',{'inmuebles':inmuebles} )

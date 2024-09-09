@@ -1,0 +1,382 @@
+[
+    {
+        "model": "m7_python.inmueble",
+        "pk": 1,
+        "fields": {
+            "nombre": "Casa Acogedora",
+            "descripcion": "Amplia casa con jardín",
+            "m2_construidos": 200,
+            "m2_totales": 300,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 4,
+            "num_baños": 3,
+            "direccion": "Calle Principal 123",
+            "tipo_inmueble": "casa",
+            "precio": 500000,
+            "precio_ufs": null,
+            "comuna": "01101",
+            "arrendador": 1
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 2,
+        "fields": {
+            "nombre": "Departamento Moderno",
+            "descripcion": "Departamento céntrico con vista al mar",
+            "m2_construidos": 80,
+            "m2_totales": 100,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 2,
+            "num_baños": 1,
+            "direccion": "Avenida Central 456",
+            "tipo_inmueble": "departamento",
+            "precio": 300000,
+            "precio_ufs": null,
+            "comuna": "03102",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 3,
+        "fields": {
+            "nombre": "Casa de Playa",
+            "descripcion": "Casa frente al mar",
+            "m2_construidos": 150,
+            "m2_totales": 250,
+            "num_estacionamientos": 3,
+            "num_habitaciones": 3,
+            "num_baños": 2,
+            "direccion": "Playa del Sol 789",
+            "tipo_inmueble": "casa",
+            "precio": 700000,
+            "precio_ufs": null,
+            "comuna": "04102",
+            "arrendador": 2
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 4,
+        "fields": {
+            "nombre": "Loft Urbano",
+            "descripcion": "Loft en el corazón de la ciudad",
+            "m2_construidos": 60,
+            "m2_totales": 80,
+            "num_estacionamientos": 0,
+            "num_habitaciones": 1,
+            "num_baños": 1,
+            "direccion": "Calle Urbana 101",
+            "tipo_inmueble": "departamento",
+            "precio": 200000,
+            "precio_ufs": null,
+            "comuna": "04301",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 5,
+        "fields": {
+            "nombre": "Apartamento Elegante",
+            "descripcion": "Apartamento con acabados de lujo",
+            "m2_construidos": 100,
+            "m2_totales": 120,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 2,
+            "num_baños": 2,
+            "direccion": "Avenida Elegancia 222",
+            "tipo_inmueble": "departamento",
+            "precio": 400000,
+            "precio_ufs": null,
+            "comuna": "05101",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 6,
+        "fields": {
+            "nombre": "Casa Familiar",
+            "descripcion": "Amplia casa para toda la familia",
+            "m2_construidos": 180,
+            "m2_totales": 220,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 5,
+            "num_baños": 3,
+            "direccion": "Calle Felicidad 333",
+            "tipo_inmueble": "casa",
+            "precio": 600000,
+            "precio_ufs": null,
+            "comuna": "05109",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 7,
+        "fields": {
+            "nombre": "Penthouse con Vistas",
+            "descripcion": "Penthouse con terraza panorámica",
+            "m2_construidos": 120,
+            "m2_totales": 150,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 3,
+            "num_baños": 2,
+            "direccion": "Avenida Vista 444",
+            "tipo_inmueble": "parcela",
+            "precio": 800000,
+            "precio_ufs": null,
+            "comuna": "05403",
+            "arrendador": 3
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 8,
+        "fields": {
+            "nombre": "Estudio Acogedor",
+            "descripcion": "Estudio ideal para solteros",
+            "m2_construidos": 40,
+            "m2_totales": 50,
+            "num_estacionamientos": 0,
+            "num_habitaciones": 1,
+            "num_baños": 1,
+            "direccion": "Calle Solitaria 555",
+            "tipo_inmueble": "departamento",
+            "precio": 150000,
+            "precio_ufs": null,
+            "comuna": "05401",
+            "arrendador": 5
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 9,
+        "fields": {
+            "nombre": "Casa Rústica",
+            "descripcion": "Casa de campo con chimenea",
+            "m2_construidos": 160,
+            "m2_totales": 200,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 4,
+            "num_baños": 2,
+            "direccion": "Camino Rural 666",
+            "tipo_inmueble": "casa",
+            "precio": 550000,
+            "precio_ufs": null,
+            "comuna": "05701",
+            "arrendador": 3
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 10,
+        "fields": {
+            "nombre": "Apartamento Minimalista",
+            "descripcion": "Apartamento con diseño minimalista",
+            "m2_construidos": 70,
+            "m2_totales": 90,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 1,
+            "num_baños": 1,
+            "direccion": "Avenida Minimal 777",
+            "tipo_inmueble": "parcela",
+            "precio": 250000,
+            "precio_ufs": null,
+            "comuna": "05804",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 11,
+        "fields": {
+            "nombre": "Casa Tranquila",
+            "descripcion": "Casa en zona residencial",
+            "m2_construidos": 140,
+            "m2_totales": 180,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 4,
+            "num_baños": 2,
+            "direccion": "Calle Calma 888",
+            "tipo_inmueble": "casa",
+            "precio": 650000,
+            "precio_ufs": null,
+            "comuna": "06202",
+            "arrendador": 2
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 12,
+        "fields": {
+            "nombre": "Loft de Diseño",
+            "descripcion": "Loft con diseño moderno y elegante",
+            "m2_construidos": 90,
+            "m2_totales": 110,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 2,
+            "num_baños": 1,
+            "direccion": "Calle Diseño 999",
+            "tipo_inmueble": "departamento",
+            "precio": 350000,
+            "precio_ufs": null,
+            "comuna": "06303",
+            "arrendador": 5
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 13,
+        "fields": {
+            "nombre": "Casa Contemporánea",
+            "descripcion": "Casa con estilo contemporáneo",
+            "m2_construidos": 200,
+            "m2_totales": 250,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 4,
+            "num_baños": 3,
+            "direccion": "Avenida Contemporánea 1000",
+            "tipo_inmueble": "casa",
+            "precio": 700000,
+            "precio_ufs": null,
+            "comuna": "07101",
+            "arrendador": 1
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 14,
+        "fields": {
+            "nombre": "Departamento de Lujo",
+            "descripcion": "Departamento en zona exclusiva",
+            "m2_construidos": 110,
+            "m2_totales": 130,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 3,
+            "num_baños": 2,
+            "direccion": "Calle Lujo 1111",
+            "tipo_inmueble": "departamento",
+            "precio": 500000,
+            "precio_ufs": null,
+            "comuna": "07304",
+            "arrendador": 1
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 15,
+        "fields": {
+            "nombre": "Casa Moderna",
+            "descripcion": "Casa con acabados modernos",
+            "m2_construidos": 170,
+            "m2_totales": 210,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 5,
+            "num_baños": 3,
+            "direccion": "Calle Moderna 1212",
+            "tipo_inmueble": "casa",
+            "precio": 600000,
+            "precio_ufs": null,
+            "comuna": "07402",
+            "arrendador": 3
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 16,
+        "fields": {
+            "nombre": "Departamento Espacioso",
+            "descripcion": "Departamento amplio en el centro",
+            "m2_construidos": 120,
+            "m2_totales": 150,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 3,
+            "num_baños": 2,
+            "direccion": "Avenida Espacio 1313",
+            "tipo_inmueble": "departamento",
+            "precio": 400000,
+            "precio_ufs": null,
+            "comuna": "08102",
+            "arrendador": 5
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 17,
+        "fields": {
+            "nombre": "Casa de Campo",
+            "descripcion": "Casa en un entorno rural",
+            "m2_construidos": 150,
+            "m2_totales": 200,
+            "num_estacionamientos": 2,
+            "num_habitaciones": 4,
+            "num_baños": 2,
+            "direccion": "Camino de Campo 1414",
+            "tipo_inmueble": "casa",
+            "precio": 550000,
+            "precio_ufs": null,
+            "comuna": "08313",
+            "arrendador": 2
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 18,
+        "fields": {
+            "nombre": "Loft de Diseño Industrial",
+            "descripcion": "Loft con diseño industrial",
+            "m2_construidos": 100,
+            "m2_totales": 120,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 2,
+            "num_baños": 1,
+            "direccion": "Calle Industrial 1515",
+            "tipo_inmueble": "departamento",
+            "precio": 300000,
+            "precio_ufs": null,
+            "comuna": "09115",
+            "arrendador": 4
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 19,
+        "fields": {
+            "nombre": "Casa de Verano",
+            "descripcion": "Casa para disfrutar el verano",
+            "m2_construidos": 130,
+            "m2_totales": 180,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 3,
+            "num_baños": 2,
+            "direccion": "Playa de Verano 1616",
+            "tipo_inmueble": "casa",
+            "precio": 600000,
+            "precio_ufs": null,
+            "comuna": "09207",
+            "arrendador": 5
+        }
+    },
+    {
+        "model": "m7_python.inmueble",
+        "pk": 20,
+        "fields": {
+            "nombre": "Apartamento Chic",
+            "descripcion": "Apartamento con estilo chic",
+            "m2_construidos": 80,
+            "m2_totales": 100,
+            "num_estacionamientos": 1,
+            "num_habitaciones": 2,
+            "num_baños": 1,
+            "direccion": "Calle Chic 1717",
+            "tipo_inmueble": "departamento",
+            "precio": 280000,
+            "precio_ufs": null,
+            "comuna": "10301",
+            "arrendador": 1
+        }
+    }
+]

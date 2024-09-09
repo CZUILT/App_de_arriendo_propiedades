@@ -1,0 +1,3244 @@
+[
+    {
+      "model": "m7_python.region",
+      "pk": "01",
+      "fields": {
+        "cod": "01",
+        "nombre": "De Tarapacá"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01101",
+      "fields": {
+        "cod": "01101",
+        "nombre": "Iquique",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01402",
+      "fields": {
+        "cod": "01402",
+        "nombre": "Camiña",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01403",
+      "fields": {
+        "cod": "01403",
+        "nombre": "Colchane",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01404",
+      "fields": {
+        "cod": "01404",
+        "nombre": "Huara",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01405",
+      "fields": {
+        "cod": "01405",
+        "nombre": "Pica",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01401",
+      "fields": {
+        "cod": "01401",
+        "nombre": "Pozo Almonte",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "01107",
+      "fields": {
+        "cod": "01107",
+        "nombre": "Alto Hospicio",
+        "region": "01"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "02",
+      "fields": {
+        "cod": "02",
+        "nombre": "De Antofagasta"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02101",
+      "fields": {
+        "cod": "02101",
+        "nombre": "Antofagasta",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02102",
+      "fields": {
+        "cod": "02102",
+        "nombre": "Mejillones",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02103",
+      "fields": {
+        "cod": "02103",
+        "nombre": "Sierra Gorda",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02104",
+      "fields": {
+        "cod": "02104",
+        "nombre": "Taltal",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02201",
+      "fields": {
+        "cod": "02201",
+        "nombre": "Calama",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02202",
+      "fields": {
+        "cod": "02202",
+        "nombre": "Ollagüe",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02203",
+      "fields": {
+        "cod": "02203",
+        "nombre": "San Pedro de Atacama",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02301",
+      "fields": {
+        "cod": "02301",
+        "nombre": "Tocopilla",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "02302",
+      "fields": {
+        "cod": "02302",
+        "nombre": "María Elena",
+        "region": "02"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "03",
+      "fields": {
+        "cod": "03",
+        "nombre": "De Atacama"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03101",
+      "fields": {
+        "cod": "03101",
+        "nombre": "Copiapó",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03102",
+      "fields": {
+        "cod": "03102",
+        "nombre": "Caldera",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03103",
+      "fields": {
+        "cod": "03103",
+        "nombre": "Tierra Amarilla",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03201",
+      "fields": {
+        "cod": "03201",
+        "nombre": "Chañaral",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03202",
+      "fields": {
+        "cod": "03202",
+        "nombre": "Diego de Almagro",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03301",
+      "fields": {
+        "cod": "03301",
+        "nombre": "Vallenar",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03302",
+      "fields": {
+        "cod": "03302",
+        "nombre": "Alto del Carmen",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03303",
+      "fields": {
+        "cod": "03303",
+        "nombre": "Freirina",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "03304",
+      "fields": {
+        "cod": "03304",
+        "nombre": "Huasco",
+        "region": "03"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "04",
+      "fields": {
+        "cod": "04",
+        "nombre": "De Coquimbo"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04101",
+      "fields": {
+        "cod": "04101",
+        "nombre": "La Serena",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04102",
+      "fields": {
+        "cod": "04102",
+        "nombre": "Coquimbo",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04103",
+      "fields": {
+        "cod": "04103",
+        "nombre": "Andacollo",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04104",
+      "fields": {
+        "cod": "04104",
+        "nombre": "La Higuera",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04105",
+      "fields": {
+        "cod": "04105",
+        "nombre": "Paiguano",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04106",
+      "fields": {
+        "cod": "04106",
+        "nombre": "Vicuña",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04201",
+      "fields": {
+        "cod": "04201",
+        "nombre": "Illapel",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04202",
+      "fields": {
+        "cod": "04202",
+        "nombre": "Canela",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04203",
+      "fields": {
+        "cod": "04203",
+        "nombre": "Los Vilos",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04204",
+      "fields": {
+        "cod": "04204",
+        "nombre": "Salamanca",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04301",
+      "fields": {
+        "cod": "04301",
+        "nombre": "Ovalle",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04302",
+      "fields": {
+        "cod": "04302",
+        "nombre": "Combarbalá",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04303",
+      "fields": {
+        "cod": "04303",
+        "nombre": "Monte Patria",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04304",
+      "fields": {
+        "cod": "04304",
+        "nombre": "Punitaqui",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "04305",
+      "fields": {
+        "cod": "04305",
+        "nombre": "Río Hurtado",
+        "region": "04"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "05",
+      "fields": {
+        "cod": "05",
+        "nombre": "De Valparaíso"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05101",
+      "fields": {
+        "cod": "05101",
+        "nombre": "Valparaíso",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05102",
+      "fields": {
+        "cod": "05102",
+        "nombre": "Casablanca",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05103",
+      "fields": {
+        "cod": "05103",
+        "nombre": "Concón",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05104",
+      "fields": {
+        "cod": "05104",
+        "nombre": "Juan Fernández",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05105",
+      "fields": {
+        "cod": "05105",
+        "nombre": "Puchuncaví",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05801",
+      "fields": {
+        "cod": "05801",
+        "nombre": "Quilpué",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05107",
+      "fields": {
+        "cod": "05107",
+        "nombre": "Quintero",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05804",
+      "fields": {
+        "cod": "05804",
+        "nombre": "Villa Alemana",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05109",
+      "fields": {
+        "cod": "05109",
+        "nombre": "Viña del Mar",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05201",
+      "fields": {
+        "cod": "05201",
+        "nombre": "Isla de Pascua",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05301",
+      "fields": {
+        "cod": "05301",
+        "nombre": "Los Andes",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05302",
+      "fields": {
+        "cod": "05302",
+        "nombre": "Calle Larga",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05303",
+      "fields": {
+        "cod": "05303",
+        "nombre": "Rinconada",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05304",
+      "fields": {
+        "cod": "05304",
+        "nombre": "San Esteban",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05401",
+      "fields": {
+        "cod": "05401",
+        "nombre": "La Ligua",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05402",
+      "fields": {
+        "cod": "05402",
+        "nombre": "Cabildo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05403",
+      "fields": {
+        "cod": "05403",
+        "nombre": "Papudo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05404",
+      "fields": {
+        "cod": "05404",
+        "nombre": "Petorca",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05405",
+      "fields": {
+        "cod": "05405",
+        "nombre": "Zapallar",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05501",
+      "fields": {
+        "cod": "05501",
+        "nombre": "Quillota",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05502",
+      "fields": {
+        "cod": "05502",
+        "nombre": "Calera",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05503",
+      "fields": {
+        "cod": "05503",
+        "nombre": "Hijuelas",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05504",
+      "fields": {
+        "cod": "05504",
+        "nombre": "La Cruz",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05802",
+      "fields": {
+        "cod": "05802",
+        "nombre": "Limache",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05506",
+      "fields": {
+        "cod": "05506",
+        "nombre": "Nogales",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05803",
+      "fields": {
+        "cod": "05803",
+        "nombre": "Olmué",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05601",
+      "fields": {
+        "cod": "05601",
+        "nombre": "San Antonio",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05602",
+      "fields": {
+        "cod": "05602",
+        "nombre": "Algarrobo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05603",
+      "fields": {
+        "cod": "05603",
+        "nombre": "Cartagena",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05604",
+      "fields": {
+        "cod": "05604",
+        "nombre": "El Quisco",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05605",
+      "fields": {
+        "cod": "05605",
+        "nombre": "El Tabo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05606",
+      "fields": {
+        "cod": "05606",
+        "nombre": "Santo Domingo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05701",
+      "fields": {
+        "cod": "05701",
+        "nombre": "San Felipe",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05702",
+      "fields": {
+        "cod": "05702",
+        "nombre": "Catemu",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05703",
+      "fields": {
+        "cod": "05703",
+        "nombre": "Llaillay",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05704",
+      "fields": {
+        "cod": "05704",
+        "nombre": "Panquehue",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05705",
+      "fields": {
+        "cod": "05705",
+        "nombre": "Putaendo",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "05706",
+      "fields": {
+        "cod": "05706",
+        "nombre": "Santa María",
+        "region": "05"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "06",
+      "fields": {
+        "cod": "06",
+        "nombre": "De O'Higgins"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06101",
+      "fields": {
+        "cod": "06101",
+        "nombre": "Rancagua",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06102",
+      "fields": {
+        "cod": "06102",
+        "nombre": "Codegua",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06103",
+      "fields": {
+        "cod": "06103",
+        "nombre": "Coinco",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06104",
+      "fields": {
+        "cod": "06104",
+        "nombre": "Coltauco",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06105",
+      "fields": {
+        "cod": "06105",
+        "nombre": "Doñihue",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06106",
+      "fields": {
+        "cod": "06106",
+        "nombre": "Graneros",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06107",
+      "fields": {
+        "cod": "06107",
+        "nombre": "Las Cabras",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06108",
+      "fields": {
+        "cod": "06108",
+        "nombre": "Machalí",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06109",
+      "fields": {
+        "cod": "06109",
+        "nombre": "Malloa",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06110",
+      "fields": {
+        "cod": "06110",
+        "nombre": "Mostazal",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06111",
+      "fields": {
+        "cod": "06111",
+        "nombre": "Olivar",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06112",
+      "fields": {
+        "cod": "06112",
+        "nombre": "Peumo",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06113",
+      "fields": {
+        "cod": "06113",
+        "nombre": "Pichidegua",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06114",
+      "fields": {
+        "cod": "06114",
+        "nombre": "Quinta de Tilcoco",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06115",
+      "fields": {
+        "cod": "06115",
+        "nombre": "Rengo",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06116",
+      "fields": {
+        "cod": "06116",
+        "nombre": "Requínoa",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06117",
+      "fields": {
+        "cod": "06117",
+        "nombre": "San Vicente",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06201",
+      "fields": {
+        "cod": "06201",
+        "nombre": "Pichilemu",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06202",
+      "fields": {
+        "cod": "06202",
+        "nombre": "La Estrella",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06203",
+      "fields": {
+        "cod": "06203",
+        "nombre": "Litueche",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06204",
+      "fields": {
+        "cod": "06204",
+        "nombre": "Marchihue",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06205",
+      "fields": {
+        "cod": "06205",
+        "nombre": "Navidad",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06206",
+      "fields": {
+        "cod": "06206",
+        "nombre": "Paredones",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06301",
+      "fields": {
+        "cod": "06301",
+        "nombre": "San Fernando",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06302",
+      "fields": {
+        "cod": "06302",
+        "nombre": "Chépica",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06303",
+      "fields": {
+        "cod": "06303",
+        "nombre": "Chimbarongo",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06304",
+      "fields": {
+        "cod": "06304",
+        "nombre": "Lolol",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06305",
+      "fields": {
+        "cod": "06305",
+        "nombre": "Nancagua",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06306",
+      "fields": {
+        "cod": "06306",
+        "nombre": "Palmilla",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06307",
+      "fields": {
+        "cod": "06307",
+        "nombre": "Peralillo",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06308",
+      "fields": {
+        "cod": "06308",
+        "nombre": "Placilla",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06309",
+      "fields": {
+        "cod": "06309",
+        "nombre": "Pumanque",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "06310",
+      "fields": {
+        "cod": "06310",
+        "nombre": "Santa Cruz",
+        "region": "06"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "07",
+      "fields": {
+        "cod": "07",
+        "nombre": "Del Maule"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07101",
+      "fields": {
+        "cod": "07101",
+        "nombre": "Talca",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07102",
+      "fields": {
+        "cod": "07102",
+        "nombre": "Constitución",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07103",
+      "fields": {
+        "cod": "07103",
+        "nombre": "Curepto",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07104",
+      "fields": {
+        "cod": "07104",
+        "nombre": "Empedrado",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07105",
+      "fields": {
+        "cod": "07105",
+        "nombre": "Maule",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07106",
+      "fields": {
+        "cod": "07106",
+        "nombre": "Pelarco",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07107",
+      "fields": {
+        "cod": "07107",
+        "nombre": "Pencahue",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07108",
+      "fields": {
+        "cod": "07108",
+        "nombre": "Río Claro",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07109",
+      "fields": {
+        "cod": "07109",
+        "nombre": "San Clemente",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07110",
+      "fields": {
+        "cod": "07110",
+        "nombre": "San Rafael",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07201",
+      "fields": {
+        "cod": "07201",
+        "nombre": "Cauquenes",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07202",
+      "fields": {
+        "cod": "07202",
+        "nombre": "Chanco",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07203",
+      "fields": {
+        "cod": "07203",
+        "nombre": "Pelluhue",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07301",
+      "fields": {
+        "cod": "07301",
+        "nombre": "Curicó",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07302",
+      "fields": {
+        "cod": "07302",
+        "nombre": "Hualañé",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07303",
+      "fields": {
+        "cod": "07303",
+        "nombre": "Licantén",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07304",
+      "fields": {
+        "cod": "07304",
+        "nombre": "Molina",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07305",
+      "fields": {
+        "cod": "07305",
+        "nombre": "Rauco",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07306",
+      "fields": {
+        "cod": "07306",
+        "nombre": "Romeral",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07307",
+      "fields": {
+        "cod": "07307",
+        "nombre": "Sagrada Familia",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07308",
+      "fields": {
+        "cod": "07308",
+        "nombre": "Teno",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07309",
+      "fields": {
+        "cod": "07309",
+        "nombre": "Vichuquén",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07401",
+      "fields": {
+        "cod": "07401",
+        "nombre": "Linares",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07402",
+      "fields": {
+        "cod": "07402",
+        "nombre": "Colbún",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07403",
+      "fields": {
+        "cod": "07403",
+        "nombre": "Longaví",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07404",
+      "fields": {
+        "cod": "07404",
+        "nombre": "Parral",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07405",
+      "fields": {
+        "cod": "07405",
+        "nombre": "Retiro",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07406",
+      "fields": {
+        "cod": "07406",
+        "nombre": "San Javier",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07407",
+      "fields": {
+        "cod": "07407",
+        "nombre": "Villa Alegre",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "07408",
+      "fields": {
+        "cod": "07408",
+        "nombre": "Yerbas Buenas",
+        "region": "07"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "08",
+      "fields": {
+        "cod": "08",
+        "nombre": "De Ñuble"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08101",
+      "fields": {
+        "cod": "08101",
+        "nombre": "Concepción",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08102",
+      "fields": {
+        "cod": "08102",
+        "nombre": "Coronel",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08103",
+      "fields": {
+        "cod": "08103",
+        "nombre": "Chiguayante",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08104",
+      "fields": {
+        "cod": "08104",
+        "nombre": "Florida",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08105",
+      "fields": {
+        "cod": "08105",
+        "nombre": "Hualqui",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08106",
+      "fields": {
+        "cod": "08106",
+        "nombre": "Lota",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08107",
+      "fields": {
+        "cod": "08107",
+        "nombre": "Penco",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08108",
+      "fields": {
+        "cod": "08108",
+        "nombre": "San Pedro de la Paz",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08109",
+      "fields": {
+        "cod": "08109",
+        "nombre": "Santa Juana",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08110",
+      "fields": {
+        "cod": "08110",
+        "nombre": "Talcahuano",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08111",
+      "fields": {
+        "cod": "08111",
+        "nombre": "Tomé",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08112",
+      "fields": {
+        "cod": "08112",
+        "nombre": "Hualpén",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08201",
+      "fields": {
+        "cod": "08201",
+        "nombre": "Lebu",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08202",
+      "fields": {
+        "cod": "08202",
+        "nombre": "Arauco",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08203",
+      "fields": {
+        "cod": "08203",
+        "nombre": "Cañete",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08204",
+      "fields": {
+        "cod": "08204",
+        "nombre": "Contulmo",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08205",
+      "fields": {
+        "cod": "08205",
+        "nombre": "Curanilahue",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08206",
+      "fields": {
+        "cod": "08206",
+        "nombre": "Los Álamos",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08207",
+      "fields": {
+        "cod": "08207",
+        "nombre": "Tirúa",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08301",
+      "fields": {
+        "cod": "08301",
+        "nombre": "Los Ángeles",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08302",
+      "fields": {
+        "cod": "08302",
+        "nombre": "Antuco",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08303",
+      "fields": {
+        "cod": "08303",
+        "nombre": "Cabrero",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08304",
+      "fields": {
+        "cod": "08304",
+        "nombre": "Laja",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08305",
+      "fields": {
+        "cod": "08305",
+        "nombre": "Mulchén",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08306",
+      "fields": {
+        "cod": "08306",
+        "nombre": "Nacimiento",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08307",
+      "fields": {
+        "cod": "08307",
+        "nombre": "Negrete",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08308",
+      "fields": {
+        "cod": "08308",
+        "nombre": "Quilaco",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08309",
+      "fields": {
+        "cod": "08309",
+        "nombre": "Quilleco",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08310",
+      "fields": {
+        "cod": "08310",
+        "nombre": "San Rosendo",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08311",
+      "fields": {
+        "cod": "08311",
+        "nombre": "Santa Bárbara",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08312",
+      "fields": {
+        "cod": "08312",
+        "nombre": "Tucapel",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08313",
+      "fields": {
+        "cod": "08313",
+        "nombre": "Yumbel",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "08314",
+      "fields": {
+        "cod": "08314",
+        "nombre": "Alto Biobío",
+        "region": "08"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "09",
+      "fields": {
+        "cod": "09",
+        "nombre": "Del Biobío"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09101",
+      "fields": {
+        "cod": "09101",
+        "nombre": "Temuco",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09102",
+      "fields": {
+        "cod": "09102",
+        "nombre": "Carahue",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09103",
+      "fields": {
+        "cod": "09103",
+        "nombre": "Cunco",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09104",
+      "fields": {
+        "cod": "09104",
+        "nombre": "Curarrehue",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09105",
+      "fields": {
+        "cod": "09105",
+        "nombre": "Freire",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09106",
+      "fields": {
+        "cod": "09106",
+        "nombre": "Galvarino",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09107",
+      "fields": {
+        "cod": "09107",
+        "nombre": "Gorbea",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09108",
+      "fields": {
+        "cod": "09108",
+        "nombre": "Lautaro",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09109",
+      "fields": {
+        "cod": "09109",
+        "nombre": "Loncoche",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09110",
+      "fields": {
+        "cod": "09110",
+        "nombre": "Melipeuco",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09111",
+      "fields": {
+        "cod": "09111",
+        "nombre": "Nueva Imperial",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09112",
+      "fields": {
+        "cod": "09112",
+        "nombre": "Padre Las Casas",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09113",
+      "fields": {
+        "cod": "09113",
+        "nombre": "Perquenco",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09114",
+      "fields": {
+        "cod": "09114",
+        "nombre": "Pitrufquén",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09115",
+      "fields": {
+        "cod": "09115",
+        "nombre": "Pucón",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09116",
+      "fields": {
+        "cod": "09116",
+        "nombre": "Saavedra",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09117",
+      "fields": {
+        "cod": "09117",
+        "nombre": "Teodoro Schmidt",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09118",
+      "fields": {
+        "cod": "09118",
+        "nombre": "Toltén",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09119",
+      "fields": {
+        "cod": "09119",
+        "nombre": "Vilcún",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09120",
+      "fields": {
+        "cod": "09120",
+        "nombre": "Villarrica",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09121",
+      "fields": {
+        "cod": "09121",
+        "nombre": "Cholchol",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09201",
+      "fields": {
+        "cod": "09201",
+        "nombre": "Angol",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09202",
+      "fields": {
+        "cod": "09202",
+        "nombre": "Collipulli",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09203",
+      "fields": {
+        "cod": "09203",
+        "nombre": "Curacautín",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09204",
+      "fields": {
+        "cod": "09204",
+        "nombre": "Ercilla",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09205",
+      "fields": {
+        "cod": "09205",
+        "nombre": "Lonquimay",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09206",
+      "fields": {
+        "cod": "09206",
+        "nombre": "Los Sauces",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09207",
+      "fields": {
+        "cod": "09207",
+        "nombre": "Lumaco",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09208",
+      "fields": {
+        "cod": "09208",
+        "nombre": "Purén",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09209",
+      "fields": {
+        "cod": "09209",
+        "nombre": "Renaico",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09210",
+      "fields": {
+        "cod": "09210",
+        "nombre": "Traiguén",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "09211",
+      "fields": {
+        "cod": "09211",
+        "nombre": "Victoria",
+        "region": "09"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "10",
+      "fields": {
+        "cod": "10",
+        "nombre": "De La Araucanía"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10101",
+      "fields": {
+        "cod": "10101",
+        "nombre": "Puerto Montt",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10102",
+      "fields": {
+        "cod": "10102",
+        "nombre": "Calbuco",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10103",
+      "fields": {
+        "cod": "10103",
+        "nombre": "Cochamó",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10104",
+      "fields": {
+        "cod": "10104",
+        "nombre": "Fresia",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10105",
+      "fields": {
+        "cod": "10105",
+        "nombre": "Frutillar",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10106",
+      "fields": {
+        "cod": "10106",
+        "nombre": "Los Muermos",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10107",
+      "fields": {
+        "cod": "10107",
+        "nombre": "Llanquihue",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10108",
+      "fields": {
+        "cod": "10108",
+        "nombre": "Maullín",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10109",
+      "fields": {
+        "cod": "10109",
+        "nombre": "Puerto Varas",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10201",
+      "fields": {
+        "cod": "10201",
+        "nombre": "Castro",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10202",
+      "fields": {
+        "cod": "10202",
+        "nombre": "Ancud",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10203",
+      "fields": {
+        "cod": "10203",
+        "nombre": "Chonchi",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10204",
+      "fields": {
+        "cod": "10204",
+        "nombre": "Curaco de Vélez",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10205",
+      "fields": {
+        "cod": "10205",
+        "nombre": "Dalcahue",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10206",
+      "fields": {
+        "cod": "10206",
+        "nombre": "Puqueldón",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10207",
+      "fields": {
+        "cod": "10207",
+        "nombre": "Queilén",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10208",
+      "fields": {
+        "cod": "10208",
+        "nombre": "Quellón",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10209",
+      "fields": {
+        "cod": "10209",
+        "nombre": "Quemchi",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10210",
+      "fields": {
+        "cod": "10210",
+        "nombre": "Quinchao",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10301",
+      "fields": {
+        "cod": "10301",
+        "nombre": "Osorno",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10302",
+      "fields": {
+        "cod": "10302",
+        "nombre": "Puerto Octay",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10303",
+      "fields": {
+        "cod": "10303",
+        "nombre": "Purranque",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10304",
+      "fields": {
+        "cod": "10304",
+        "nombre": "Puyehue",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10305",
+      "fields": {
+        "cod": "10305",
+        "nombre": "Río Negro",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10306",
+      "fields": {
+        "cod": "10306",
+        "nombre": "San Juan de la Costa",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10307",
+      "fields": {
+        "cod": "10307",
+        "nombre": "San Pablo",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10401",
+      "fields": {
+        "cod": "10401",
+        "nombre": "Chaitén",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10402",
+      "fields": {
+        "cod": "10402",
+        "nombre": "Futaleufú",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10403",
+      "fields": {
+        "cod": "10403",
+        "nombre": "Hualaihué",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "10404",
+      "fields": {
+        "cod": "10404",
+        "nombre": "Palena",
+        "region": "10"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "11",
+      "fields": {
+        "cod": "11",
+        "nombre": "De Los Ríos"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11101",
+      "fields": {
+        "cod": "11101",
+        "nombre": "Coihaique",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11102",
+      "fields": {
+        "cod": "11102",
+        "nombre": "Lago Verde",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11201",
+      "fields": {
+        "cod": "11201",
+        "nombre": "Aisén",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11202",
+      "fields": {
+        "cod": "11202",
+        "nombre": "Cisnes",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11203",
+      "fields": {
+        "cod": "11203",
+        "nombre": "Guaitecas",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11301",
+      "fields": {
+        "cod": "11301",
+        "nombre": "Cochrane",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11302",
+      "fields": {
+        "cod": "11302",
+        "nombre": "O'Higgins",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11303",
+      "fields": {
+        "cod": "11303",
+        "nombre": "Tortel",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11401",
+      "fields": {
+        "cod": "11401",
+        "nombre": "Chile Chico",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "11402",
+      "fields": {
+        "cod": "11402",
+        "nombre": "Río Ibáñez",
+        "region": "11"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "12",
+      "fields": {
+        "cod": "12",
+        "nombre": "De Los Lagos"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12101",
+      "fields": {
+        "cod": "12101",
+        "nombre": "Punta Arenas",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12102",
+      "fields": {
+        "cod": "12102",
+        "nombre": "Laguna Blanca",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12103",
+      "fields": {
+        "cod": "12103",
+        "nombre": "Río Verde",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12104",
+      "fields": {
+        "cod": "12104",
+        "nombre": "San Gregorio",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12201",
+      "fields": {
+        "cod": "12201",
+        "nombre": "Cabo de Hornos",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12202",
+      "fields": {
+        "cod": "12202",
+        "nombre": "Antártica",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12301",
+      "fields": {
+        "cod": "12301",
+        "nombre": "Porvenir",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12302",
+      "fields": {
+        "cod": "12302",
+        "nombre": "Primavera",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12303",
+      "fields": {
+        "cod": "12303",
+        "nombre": "Timaukel",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12401",
+      "fields": {
+        "cod": "12401",
+        "nombre": "Natales",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "12402",
+      "fields": {
+        "cod": "12402",
+        "nombre": "Torres del Paine",
+        "region": "12"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "13",
+      "fields": {
+        "cod": "13",
+        "nombre": "De Aysén"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13101",
+      "fields": {
+        "cod": "13101",
+        "nombre": "Santiago",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13102",
+      "fields": {
+        "cod": "13102",
+        "nombre": "Cerrillos",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13103",
+      "fields": {
+        "cod": "13103",
+        "nombre": "Cerro Navia",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13104",
+      "fields": {
+        "cod": "13104",
+        "nombre": "Conchalí",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13105",
+      "fields": {
+        "cod": "13105",
+        "nombre": "El Bosque",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13106",
+      "fields": {
+        "cod": "13106",
+        "nombre": "Estación Central",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13107",
+      "fields": {
+        "cod": "13107",
+        "nombre": "Huechuraba",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13108",
+      "fields": {
+        "cod": "13108",
+        "nombre": "Independencia",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13109",
+      "fields": {
+        "cod": "13109",
+        "nombre": "La Cisterna",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13110",
+      "fields": {
+        "cod": "13110",
+        "nombre": "La Florida",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13111",
+      "fields": {
+        "cod": "13111",
+        "nombre": "La Granja",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13112",
+      "fields": {
+        "cod": "13112",
+        "nombre": "La Pintana",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13113",
+      "fields": {
+        "cod": "13113",
+        "nombre": "La Reina",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13114",
+      "fields": {
+        "cod": "13114",
+        "nombre": "Las Condes",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13115",
+      "fields": {
+        "cod": "13115",
+        "nombre": "Lo Barnechea",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13116",
+      "fields": {
+        "cod": "13116",
+        "nombre": "Lo Espejo",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13117",
+      "fields": {
+        "cod": "13117",
+        "nombre": "Lo Prado",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13118",
+      "fields": {
+        "cod": "13118",
+        "nombre": "Macul",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13119",
+      "fields": {
+        "cod": "13119",
+        "nombre": "Maipú",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13120",
+      "fields": {
+        "cod": "13120",
+        "nombre": "Ñuñoa",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13121",
+      "fields": {
+        "cod": "13121",
+        "nombre": "Pedro Aguirre Cerda",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13122",
+      "fields": {
+        "cod": "13122",
+        "nombre": "Peñalolén",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13123",
+      "fields": {
+        "cod": "13123",
+        "nombre": "Providencia",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13124",
+      "fields": {
+        "cod": "13124",
+        "nombre": "Pudahuel",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13125",
+      "fields": {
+        "cod": "13125",
+        "nombre": "Quilicura",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13126",
+      "fields": {
+        "cod": "13126",
+        "nombre": "Quinta Normal",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13127",
+      "fields": {
+        "cod": "13127",
+        "nombre": "Recoleta",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13128",
+      "fields": {
+        "cod": "13128",
+        "nombre": "Renca",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13129",
+      "fields": {
+        "cod": "13129",
+        "nombre": "San Joaquín",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13130",
+      "fields": {
+        "cod": "13130",
+        "nombre": "San Miguel",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13131",
+      "fields": {
+        "cod": "13131",
+        "nombre": "San Ramón",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13132",
+      "fields": {
+        "cod": "13132",
+        "nombre": "Vitacura",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13201",
+      "fields": {
+        "cod": "13201",
+        "nombre": "Puente Alto",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13202",
+      "fields": {
+        "cod": "13202",
+        "nombre": "Pirque",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13203",
+      "fields": {
+        "cod": "13203",
+        "nombre": "San José de Maipo",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13301",
+      "fields": {
+        "cod": "13301",
+        "nombre": "Colina",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13302",
+      "fields": {
+        "cod": "13302",
+        "nombre": "Lampa",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13303",
+      "fields": {
+        "cod": "13303",
+        "nombre": "Tiltil",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13401",
+      "fields": {
+        "cod": "13401",
+        "nombre": "San Bernardo",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13402",
+      "fields": {
+        "cod": "13402",
+        "nombre": "Buin",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13403",
+      "fields": {
+        "cod": "13403",
+        "nombre": "Calera de Tango",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13404",
+      "fields": {
+        "cod": "13404",
+        "nombre": "Paine",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13501",
+      "fields": {
+        "cod": "13501",
+        "nombre": "Melipilla",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13502",
+      "fields": {
+        "cod": "13502",
+        "nombre": "Alhué",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13503",
+      "fields": {
+        "cod": "13503",
+        "nombre": "Curacaví",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13504",
+      "fields": {
+        "cod": "13504",
+        "nombre": "María Pinto",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13505",
+      "fields": {
+        "cod": "13505",
+        "nombre": "San Pedro",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13601",
+      "fields": {
+        "cod": "13601",
+        "nombre": "Talagante",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13602",
+      "fields": {
+        "cod": "13602",
+        "nombre": "El Monte",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13603",
+      "fields": {
+        "cod": "13603",
+        "nombre": "Isla de Maipo",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13604",
+      "fields": {
+        "cod": "13604",
+        "nombre": "Padre Hurtado",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "13605",
+      "fields": {
+        "cod": "13605",
+        "nombre": "Peñaflor",
+        "region": "13"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "14",
+      "fields": {
+        "cod": "14",
+        "nombre": "De Magallanes"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14101",
+      "fields": {
+        "cod": "14101",
+        "nombre": "Valdivia",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14102",
+      "fields": {
+        "cod": "14102",
+        "nombre": "Corral",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14202",
+      "fields": {
+        "cod": "14202",
+        "nombre": "Futrono",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14201",
+      "fields": {
+        "cod": "14201",
+        "nombre": "La Unión",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14203",
+      "fields": {
+        "cod": "14203",
+        "nombre": "Lago Ranco",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14103",
+      "fields": {
+        "cod": "14103",
+        "nombre": "Lanco",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14104",
+      "fields": {
+        "cod": "14104",
+        "nombre": "Los Lagos",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14105",
+      "fields": {
+        "cod": "14105",
+        "nombre": "Máfil",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14106",
+      "fields": {
+        "cod": "14106",
+        "nombre": "Mariquina",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14107",
+      "fields": {
+        "cod": "14107",
+        "nombre": "Paillaco",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14108",
+      "fields": {
+        "cod": "14108",
+        "nombre": "Panguipulli",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "14204",
+      "fields": {
+        "cod": "14204",
+        "nombre": "Río Bueno",
+        "region": "14"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "15",
+      "fields": {
+        "cod": "15",
+        "nombre": "De Arica y Parinacota"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "15101",
+      "fields": {
+        "cod": "15101",
+        "nombre": "Arica",
+        "region": "15"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "15102",
+      "fields": {
+        "cod": "15102",
+        "nombre": "Camarones",
+        "region": "15"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "15201",
+      "fields": {
+        "cod": "15201",
+        "nombre": "Putre",
+        "region": "15"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "15202",
+      "fields": {
+        "cod": "15202",
+        "nombre": "General Lagos",
+        "region": "15"
+      }
+    },
+    {
+      "model": "m7_python.region",
+      "pk": "16",
+      "fields": {
+        "cod": "16",
+        "nombre": "De Ñuble"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16101",
+      "fields": {
+        "cod": "16101",
+        "nombre": "Chillán",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16102",
+      "fields": {
+        "cod": "16102",
+        "nombre": "Bulnes",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16202",
+      "fields": {
+        "cod": "16202",
+        "nombre": "Cobquecura",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16203",
+      "fields": {
+        "cod": "16203",
+        "nombre": "Coelemu",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16302",
+      "fields": {
+        "cod": "16302",
+        "nombre": "Coihueco",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16103",
+      "fields": {
+        "cod": "16103",
+        "nombre": "Chillán Viejo",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16104",
+      "fields": {
+        "cod": "16104",
+        "nombre": "El Carmen",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16204",
+      "fields": {
+        "cod": "16204",
+        "nombre": "Ninhue",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16303",
+      "fields": {
+        "cod": "16303",
+        "nombre": "Ñiquén",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16105",
+      "fields": {
+        "cod": "16105",
+        "nombre": "Pemuco",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16106",
+      "fields": {
+        "cod": "16106",
+        "nombre": "Pinto",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16205",
+      "fields": {
+        "cod": "16205",
+        "nombre": "Portezuelo",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16107",
+      "fields": {
+        "cod": "16107",
+        "nombre": "Quillón",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16201",
+      "fields": {
+        "cod": "16201",
+        "nombre": "Quirihue",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16206",
+      "fields": {
+        "cod": "16206",
+        "nombre": "Ránquil",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16301",
+      "fields": {
+        "cod": "16301",
+        "nombre": "San Carlos",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16304",
+      "fields": {
+        "cod": "16304",
+        "nombre": "San Fabián",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16108",
+      "fields": {
+        "cod": "16108",
+        "nombre": "San Ignacio",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16305",
+      "fields": {
+        "cod": "16305",
+        "nombre": "San Nicolás",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16207",
+      "fields": {
+        "cod": "16207",
+        "nombre": "Treguaco",
+        "region": "16"
+      }
+    },
+    {
+      "model": "m7_python.comuna",
+      "pk": "16109",
+      "fields": {
+        "cod": "16109",
+        "nombre": "Yungay",
+        "region": "16"
+      }
+    }
+  ]
