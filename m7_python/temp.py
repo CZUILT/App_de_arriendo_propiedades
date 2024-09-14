@@ -20,6 +20,7 @@ from m7_python.models import Inmueble, Region, Comuna
 from django.contrib.auth.models import User
 
 #TODO_ Ejemplos SIMPLES:
+# trae todos los inmuebles
 def get_list_inmuebles_sql():
     select = """
         SELECT * FROM m7_python_inmueble
@@ -27,7 +28,7 @@ def get_list_inmuebles_sql():
     inmuebles = Inmueble.objects.raw(select)
     # inmuebles = Inmueble.objects.all()     <- ORM
     index=1
-    print("LISTA INMUEBLES")
+    print("LISTA DE INMUEBLES")
     for l in inmuebles:
         print(f"{index}__ {l.nombre}, {l.descripcion}")
         index += 1

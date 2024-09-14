@@ -1,42 +1,23 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ♠ Ring Ring ♠ </title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"/>
-</head>
-
-<body>
-
-    <body>
-        <h1>Tú proximo inmueble app solo un clic</h1>
-        <div class="container mt-5">
-            <div class="row">
-                {% for i in inmuebles %}
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://content.elmueble.com/medio/2021/01/20/001-dsc9895a-e6f75492_1fae7f4d_2000x1178.jpg"
-                            class="card-img-top" alt="Imagen de inmueble" />
-                        <div class="card-body">
-                            <h5 class="card-title center">{{ i.nombre }}</h5>
-                            <p class="card-text">{{ i.descripcion }}</p>
-                            <p class="card-text">{{ i.comuna.nombre }}</p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+{% extends 'base.html' %} 
+{% block content %}
+<div class="container mt-5">
+  <div class="row">
+    {% for i in inmuebles %}
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img
+          src="https://media.admagazine.com/photos/654119298f54ac8192294a51/16:9/w_2992,h_1683,c_limit/casa%20up.jpg"
+          class="card-img-top"
+          alt="Imagen de inmueble"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ i.nombre }}</h5>
+          <p class="card-text">{{ i.descripcion }}</p>
+          <p class="card-text">{{ i.comuna.nombre }}</p>
         </div>
-
-
-        <!-- Enlace de Bootstrap CDN-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-
-</html>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">Editar Perfil</h2>
+    <div class="card">
+        <div class="card-body">
+            <form method="post">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="id_first_name" class="form-label">Nombre:</label>
+                    {{ user_form.first_name }}
+                    {{ user_form.first_name.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_last_name" class="form-label">Apellido:</label>
+                    {{ user_form.last_name }}
+                    {{ user_form.last_name.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_email" class="form-label">Email:</label>
+                    {{ user_form.email }}
+                    {{ user_form.email.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_rut" class="form-label">RUT:</label>
+                    {{ profile_form.rut }}
+                    {{ profile_form.rut.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_direccion" class="form-label">Dirección:</label>
+                    {{ profile_form.direccion }}
+                    {{ profile_form.direccion.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_telefono" class="form-label">Teléfono:</label>
+                    {{ profile_form.telefono }}
+                    {{ profile_form.telefono.errors }}
+                </div>
+                <div class="mb-3">
+                    <label for="id_rol" class="form-label">Tipo de usuario: <strong>{{ user.user_profile.rol | upper }}</strong></label>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-outline-info">GUARDAR CAMBIOS</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="container mt-5">
+    <div class="row">
+      {% if messages %}
+        <div>
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if inmuebles %}
+        {% for i in inmuebles %}
+          <div class="col-md-4 mb-4">
+            <a class="nav-link" href="#">
+              <div class="card">
+                <img
+                  src="https://media.admagazine.com/photos/654119298f54ac8192294a51/16:9/w_2992,h_1683,c_limit/casa%20up.jpg"
+                  class="card-img-top"
+                  alt="Imagen de inmueble"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">{{ i.nombre }}</h5>
+                  <p class="card-text">{{ i.descripcion }}</p>
+                  <p class="card-text">{{ i.comuna.nombre }}</p>
+                </div>
+                {% if i.id in solicitados %}
+                  <div class="card-footer bg-success text-white text-center">
+                    <p class="mb-0">Ya solicitado</p>
+                  </div>
+                {% else %}
+                  <a href="#" class="btn btn-outline-info">Solicitar</a>
+                {% endif %}
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No se encuentran inmuebles publicados.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

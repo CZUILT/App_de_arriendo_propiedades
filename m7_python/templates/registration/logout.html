@@ -1,0 +1,15 @@
+<form
+  id="logout-form"
+  action="{% url 'logout' %}"
+  method="post"
+  style="display: none"
+>
+  {% csrf_token %}
+</form>
+<a
+  class="nav-link btn btn-white ms-4 text-white"
+  href="{% url 'login' %}"
+  onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+>
+  Cerrar sesión
+</a>

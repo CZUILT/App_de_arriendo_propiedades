@@ -1,0 +1,83 @@
+<div styles=""  class="container"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info mb-3 p-4 rounded-1">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{% url 'home' %}">
+                Ring Ring
+              </a>
+            </li>
+  
+           {% if user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                
+              </a>
+            </li>
+            {% endif %}
+  
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'about' %}">
+                Acerca
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'contact' %}">
+                Contacto
+              </a>
+            </li>
+            
+            {% if not user.is_authenticated %}
+            <li class="nav-item ">
+              <a class="nav-link btn btn-white ms-4 text-white" href="{% url 'login' %}">
+                Iniciar sesión
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link btn btn-white ms-4 text-white" href="{% url 'register' %}">
+                Registrarse
+              </a>
+            </li>
+            {% endif %}
+  
+           
+          </ul>
+  
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            {% if user.is_authenticated and user.user_profile.rol == 'arrendador' %}
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Crear Inmueble
+              </a>
+            </li>
+            {% endif %}
+            {% if user.is_authenticated and user.user_profile.rol == 'arrendatario' %}
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Ver Lista de Solicitudes
+              </a>
+            </li>
+            {% endif %}
+  
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'profile' %}">
+                <p>
+                  Bienvenido: <strong>{{ user.username }}</strong> 
+                </p>
+              </a>
+            </li>
+            {% block logout %}
+            {% include 'registration/logout.html' %}
+            {% endblock %}
+  
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
