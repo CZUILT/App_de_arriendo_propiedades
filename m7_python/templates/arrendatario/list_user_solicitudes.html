@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+  {% if messages %}
+    <div>
+      {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <h2>Solicitudes de {{ arrendatario.get_full_name }}</h2>
+  {% if solicitudes %}
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Inmueble</th>
+          <th>Fecha</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for solicitud in solicitudes %}
+          <tr>
+            <td>{{ solicitud.id }}</td>
+            <td>{{ solicitud.inmueble.nombre }}</td>
+            <td>{{ solicitud.fecha }}</td>
+            <td>{{ solicitud.get_estado_display }}</td>
+            <td>
+                {% if solicitud.estado == 'pendiente' %}
+                    <a href="#" class="btn btn-danger">Cancelar</a>
+                {% else %}
+                    <p> - </p>
+                {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>No hay solicitudes para este arrendatario.</p>
+  {% endif %}
+</div>
+{% endblock %}

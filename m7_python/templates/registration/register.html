@@ -4,7 +4,7 @@
 <div class="container d-flex min-vh-100 mt-4">
   <div class="row justify-content-center w-100">
     <div class="col-md-8 col-lg-4">
-      <div class="card p-4 shadow-sm rounded bg-info p-3">
+      <div class="card p-4 shadow-sm rounded bg-light p-3">
         <h2 class="text-center mb-4">Registro</h2>
         <form method="post">
           {% csrf_token %}
@@ -45,7 +45,7 @@
             <div class="form-group">
                   {{form.password2.errors }}
             </div>
-            <button type="submit" class="btn btn-primary btn-block ms-4 mt-4">
+            <button type="submit" class="btn btn-outline-secondary btn-block ms-4 mt-4">
               Registrar
             </button>
         </form>

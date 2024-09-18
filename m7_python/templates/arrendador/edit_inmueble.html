@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  <div class="col-12 col-md-8 offset-0 offset-md-2 mt-4 mb-3 bg-light p-3 rounded-1">
+    <h1 class="text-center">Editar Inmueble</h1>
+    <form method="post">
+      {% csrf_token %}
+
+      {% if form.errors %}
+      <div class="alert alert-danger" role="alert">
+        Por favor, corrige los errores en el formulario.
+      </div>
+      {% endif %}
+
+      <div class="mb-3">
+        <label for="{{ form.nombre.id_for_label }}" class="form-label">
+          {{ form.nombre.label_tag }}
+        </label>
+        {{ form.nombre }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.descripcion.id_for_label }}" class="form-label">
+          {{ form.descripcion.label_tag }}
+        </label>
+        {{ form.descripcion }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.m2_construidos.id_for_label }}" class="form-label">
+          {{ form.m2_construidos.label_tag }}
+        </label>
+        {{ form.m2_construidos }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.m2_totales.id_for_label }}" class="form-label">
+          {{ form.m2_totales.label_tag }}
+        </label>
+        {{ form.m2_totales }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.num_estacionamientos.id_for_label }}" class="form-label">
+          {{ form.num_estacionamientos.label_tag }}
+        </label>
+        {{ form.num_estacionamientos }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.num_habitaciones.id_for_label }}" class="form-label">
+          {{ form.num_habitaciones.label_tag }}
+        </label>
+        {{ form.num_habitaciones }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.num_baños.id_for_label }}" class="form-label">
+          {{ form.num_baños.label_tag }}
+        </label>
+        {{ form.num_baños }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.direccion.id_for_label }}" class="form-label">
+          {{ form.direccion.label_tag }}
+        </label>
+        {{ form.direccion }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.tipo_inmueble.id_for_label }}" class="form-label">
+          {{ form.tipo_inmueble.label_tag }}
+        </label>
+        {{ form.tipo_inmueble }}
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.precio.id_for_label }}" class="form-label">
+          {{ form.precio.label_tag }}
+        </label>
+        {{ form.precio }}
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="{{ form.disponible.id_for_label }}" name="disponible" {% if form.disponible.value %}checked{% endif %}>
+        <label class="form-check-label" for="{{ form.disponible.id_for_label }}">Disponible</label>
+      </div>
+
+      <div class="mb-3">
+        <label for="{{ form.comuna.id_for_label }}" class="form-label">
+          {{ form.comuna.label_tag }}
+        </label>
+        {{ form.comuna }}
+      </div>
+
+      <div class="text-center p-3">
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

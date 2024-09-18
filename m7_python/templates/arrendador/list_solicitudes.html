@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container px-3 text-center py-5 my-5">
+    <div class="row justify-content-center mb-5">
+       
+        <div class="col-12 col-md-8 px-0 shadow-lg">
+            <h2>Solicitudes para {{ inmueble.nombre }}</h2>
+            {% if solicitudes %}
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                            <th>Arrendatario</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for solicitud in solicitudes %}
+                            <tr>
+                                <td>{{ solicitud.id }}</td>
+                                <td>{{ solicitud.fecha }}</td>
+                                <td>{{ solicitud.get_estado_display }}</td>
+                                <td>{{ solicitud.arrendatario.get_full_name }}</td>
+                                <td>
+                                        <form method="post" action="{% url 'edit_status_solicitud' solicitud_id=solicitud.id %}" style="display:inline;">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="estado" value="aprobada">
+                                            <button type="submit" class="btn btn-success">Aprobar</button>
+                                        </form>
+                                        <form method="post" action="{% url 'edit_status_solicitud' solicitud_id=solicitud.id %}" style="display:inline;">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="estado" value="rechazada">
+                                            <button type="submit" class="btn btn-danger">Rechazar</button>
+                                        </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>No hay solicitudes para este inmueble.</p>
+            {% endif %}
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="w-25 btn btn-secondary py-2 fw-bold mt-2"><i class="fa-solid fa-house"></i> Volver a Inicio</a>
+</div>
+{% endblock %}

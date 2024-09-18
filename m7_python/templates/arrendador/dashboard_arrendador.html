@@ -6,45 +6,48 @@
     <div class="row">
       <!-- manejo de VISTA de mensajes de errores que django da por defecto al usar el message -->
       {% if messages %}
-      <div>
-        {% for message in messages %}
-        <div class="alert alert-{{ message.tags }}">
-          {{ message }}
+        <div>
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+            </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
       {% endif %}
 
       {% if inmuebles %}
-      {% for i in inmuebles %}
-      <div class="col-md-4 mb-4">
-        {% if i.disponible %}
-        <div class="position-relative top-0 start-0 p-2 bg-success text-white">
-          Disponible
-        </div>
-        {% else %}
-        <div class="position-relative top-0 start-0 p-2 bg-danger text-white">
-          No Disponible
-        </div>
-        {% endif %}
-        <a class="nav-link" href="#">
-          <div class="card">
-            <img
-              src="https://media.admagazine.com/photos/654119298f54ac8192294a51/16:9/w_2992,h_1683,c_limit/casa%20up.jpg"
-              class="card-img-top" alt="Imagen de inmueble" />
-            <div class="card-body">
-              <h5 class="card-title">{{ i.nombre }}</h5>
-              <p class="card-text">{{ i.descripcion }}</p>
-              <p class="card-text">{{ i.comuna.nombre }}</p>
-              <a class="btn btn-outline-success" href="#">Editar</a>
-              <a class="btn btn-outline-danger" href="#">Eliminar</a>
-            </div>
+        {% for i in inmuebles %}
+          <div class="col-md-4 mb-4">
+            {% if i.disponible %}
+              <div class="position-relative top-0 start-0 p-2 bg-success text-white">
+                  Disponible
+              </div>
+            {% else %}
+              <div class="position-relative top-0 start-0 p-2 bg-danger text-white">
+                  No Disponible
+              </div>
+          {% endif %}
+            <a class="nav-link" href="{% url 'detail_inmueble' inmueble_id=i.id %}">
+              <div class="card">
+                <img
+                  src="https://media.admagazine.com/photos/654119298f54ac8192294a51/16:9/w_2992,h_1683,c_limit/casa%20up.jpg"
+                  class="card-img-top"
+                  alt="Imagen de inmueble"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">{{ i.nombre }}</h5>
+                  <p class="card-text">{{ i.descripcion }}</p>
+                  <p class="card-text">{{ i.comuna.nombre }}</p>
+                  <a class="btn btn-outline-success" href="{% url 'edit_inmueble' inmueble_id=i.id %}">Editar</a>
+                  <a class="btn btn-outline-danger ms-2" href="{% url 'delete_inmueble' inmueble_id=i.id %}">Eliminar</a>
+               
+                </div>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      {% endfor %}
+        {% endfor %}
       {% else %}
-      <p>No tienes inmuebles registrados.</p>
+        <p>No tienes inmuebles registrados.</p>
       {% endif %}
     </div>
   </div>

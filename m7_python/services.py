@@ -8,7 +8,7 @@ def get_or_create_user_profile(user):
         if created:
             print("Se ha creado un nuevo perfil para el usuario.")
         else:
-            print("El perfil ya existía.")
+            print("Perfil ya se encuentra creado")
         return user_profile
     except Exception as e:
         print(f'Error al obtener o crear el perfil del usuario. {e}')
@@ -49,6 +49,13 @@ def create_comuna(cod, nombre, region_cod):
         region = region
     )
 
+def create_inmueble_for_arrendador(user, data):
+    new_inmueble = Inmueble(**data)
+    new_inmueble.arrendador = user
+    new_inmueble.save()
+    return new_inmueble
+
+
 def insertar_inmueble(data):
     # Obtiene el usuario (arrendador) por ID
     arrendador = User.objects.get(id=data['id_user'])
@@ -73,9 +80,18 @@ def insertar_inmueble(data):
     inmueble.save()
     return inmueble
 
+# def get_all_inmuebles():
+#     inmuebles = Inmueble.objects.all()
+#     return inmuebles
+
 def get_all_inmuebles():
-    inmuebles = Inmueble.objects.all()
-    return inmuebles
+    # inmuebles = Inmueble.objects.all()
+    try: 
+        inmuebles = Inmueble.objects.filter(disponible=True) 
+        return inmuebles 
+    except Exception as e: 
+        print(f"Error al obtener los inmuebles: {str(e)}")
+        return []
 
 
 def actualizar_disponibilidad_inmueble(id_inmueble, disponible):
@@ -97,17 +113,17 @@ def actualizar_disponibilidad_inmueble(id_inmueble, disponible):
         inmueble.save()  # Guardar los cambios
         return {
             "success": True,
-            "message": "Disponibilidad actualizada con éxito"
+            "message": "Disponibilidad actualizada exitosamente"
         }
     except Inmueble.DoesNotExist:
         return {
             "success": False,
-            "message": "Inmueble no encontrado"
+            "message": "El inmueble no ha sido encontrado"
         }
     except Exception as e:
         return {
             "success": False,
-            "message": f"Error al actualizar la disponibilidad del inmueble: {str(e)}"
+            "message": f"Error al intentar actualizar disponibilidad del inmueble: {str(e)}"
         }
 
 def eliminar_inmueble(id_inmueble):
@@ -126,14 +142,14 @@ def eliminar_inmueble(id_inmueble):
     except Exception as e:
         return {
             "success": False,
-            "message": f"Error al eliminar el inmueble: {str(e)}"
+            "message": f"Error al intentar eliminar el inmueble: {str(e)}"
         }
 
 
 def get_inmuebles_for_arrendador(user):
     rol = user.user_profile.rol
     if rol != 'arrendador':
-        print(f'Usuario no es arrendador')
+        print(f'El usuario ingresado no es arrendador')
         return []
     inmuebles = Inmueble.objects.filter(arrendador = user)
     if not inmuebles.exists():

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container px-3 text-center py-5 my-5">
+    <div class="row justify-content-center mb-5">
+      <div class="col-12 col-md-8 px-0 shadow-lg">
+        <h2>Solicitar Inmueble: {{ inmueble.nombre }}</h2>
+        <p>Estás a punto de solicitar el inmueble "{{ inmueble.nombre }}".</p>
+        <form method="post">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+        </form>
+      </div>
+    </div>
+    <a href="{% url 'index_arrendatario' %}" class="w-25 btn btn-secondary py-2 fw-bold mt-2">
+      <i class="fa-solid fa-house"></i> Volver a Inmuebles
+    </a>
+  </div>
+
+{% endblock %}

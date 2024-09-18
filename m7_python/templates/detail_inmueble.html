@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container px-3 text-center text-secondary py-5 my-5">
+    <div class="row justify-content-center mb-5">
+        <!-- Imagen del inmueble -->
+        <div class="col-12 col-md-8 px-0 shadow-lg">
+            <!-- Usa una URL de imagen estática o un campo de imagen si está disponible -->
+            <img class="img-fluid w-100" src="https://definicion.de/wp-content/uploads/2010/12/casa.jpg" alt="{{ inmueble.nombre }}">
+            <!-- <img class="img-fluid w-100" src="{% static 'images/default_inmueble.jpg' %}" alt="{{ inmueble.nombre }}"> -->
+        </div>
+        <div class="col-12 col-md-8 text-center d-flex flex-column px-0 shadow-lg mt-4">
+            <div class="border-bottom border-info py-3">
+                <span class="fw-bold h1">
+                    {{ inmueble.nombre }}
+                </span>
+            </div>
+            <p class="fs-6 flex-grow-1 text-center px-2">{{ inmueble.descripcion }}</p>
+            <p class="fs-6 flex-grow-1 text-center px-2">Región: <strong>{{ inmueble.comuna.region.nombre }}</strong> 
+                - Comuna: <strong>{{ inmueble.comuna.nombre }}</strong></p>
+            <div class="mt-auto">
+                <!-- Aquí puedes mostrar precios en formato deseado -->
+                <p class="fs-4 flex-grow-1 my-0" style="background-color:rgb(210, 224, 243);">$ {{ inmueble.precio }}</p>
+                <p class="fs-4 fw-bold my-0" style="background-color:rgb(210, 224, 243);">Estacionamiento/s {{ inmueble.num_estacionamientos }}</p>
+                <p class="fs-4 fw-bold my-0" style="background-color:rgb(210, 224, 243);">Habitaciones {{ inmueble.num_habitaciones }}</p>
+                <p class="fs-4 fw-bold my-0" style="background-color:rgb(210, 224, 243);">Baños {{ inmueble.num_baños }}</p>
+                <p class="fs-4 fw-bold my-0" style="background-color:rgb(210, 224, 243);">Dirección: {{ inmueble.direccion }}</p>
+                <p class="fs-4 fw-bold my-0" style="background-color:rgb(210, 224, 243);">Tipo {{ inmueble.get_tipo_inmueble_display }}</p>
+            </div>
+
+            {% if user.is_authenticated and user.user_profile.rol == 'arrendador' %}
+            <a href="{% url 'edit_disponibilidad_inmueble' inmueble_id=inmueble.id %}" class="btn btn-outline-warning my-2">
+                Cambiar Disponibilidad
+            </a>
+            <a href="#" class="btn btn-outline-primary my-2">
+                Ver Solicitudes
+            </a>
+
+            <!-- <a href="{% url 'ejemplo_form' data_id=inmueble.id %}" class="btn btn-primary my-2">
+                Ruta de prueba para iniciar una function - una tarea
+            </a> -->
+                 
+            
+            {% endif %}
+            {% if user.is_authenticated and user.user_profile.rol == 'arrendatario' %}
+            <p>Hola soy arrendatario</p>
+            <a href="{% url 'send_solicitud' inmueble_id=inmueble.id %}" class="btn btn-outline-dark my-2">Solicitar</a>
+            {% endif %}
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="w-25 btn btn-secondary py-2 fw-bold mt-2"><i class="fa-solid fa-house"></i> Volver a Inicio</a>
+</div>
+{% endblock %}
